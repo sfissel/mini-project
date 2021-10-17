@@ -1,0 +1,246 @@
+body {
+    background-color:rgb(245, 243, 239)
+}
+.name{
+    color: rgb(23, 39, 98);
+    font-family: Didot, serif;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+/*Set height of body and the document to 100% to enable "full page tabs" */
+body, html {
+    height: 100%;
+    margin:0;
+    font-family: Didot, serif
+}
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    background-color: rgb(117, 125, 96);
+  }
+  
+  /* Style the buttons inside the tab */
+  .tab button {
+    background-color: rgb(117, 125, 96);
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 16px;
+    transition: 0.3s;
+    font-size: 18px;
+    font-family: Didot, serif;
+    color: rgb(245, 243, 239);
+    width: 25%;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: rgb(145, 153, 123);
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: rgb(145, 153, 123);
+  }
+  
+  /* Style the tab content */
+  .tab content {
+    display: none;
+    padding: 100px 20px;
+    height: 100%;
+    color: rgb(23, 39, 98);
+  }
+  .intro{
+      margin-top: 30px;
+      margin-left: 50px;
+      display: inline-block;
+      font-size: 20px;
+  }
+
+  /* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: rgb(23, 39, 98);
+  font-size: 50px;
+  width: 100%;
+  height: auto;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+p {
+  text-align: center;
+  color:rgb(23, 39, 98)
+}
+h3 {
+  color: rgb(23, 39, 98);
+  margin-left: 100px
+}
+h1 {
+  color: rgb(23, 39, 98)
+}
+.bullet {
+  color:rgb(117, 125, 96);
+  margin-left: 110px;
+}
+.point {
+  color:rgb(145, 153, 123);
+  margin-left: 110px;
+}
+.info {
+  color:rgb(23, 39, 98);
+  margin-left: 40px
+}
+.food {
+  color:rgb(23, 39, 98);
+  text-align: center;
+}
+.recipes { 
+  color:rgb(117, 125, 96);
+  font-size: 20px;
+  font-weight: bold;
+}
+.foodpics {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  
+}
+
+.i2 {
+  text-align: center;
+  color:rgb(23, 39, 98);
+}
+.spotify {
+  text-align: left;
+  margin-left: 30px;
+  color:rgb(117, 125, 96)
+}
+.spot {
+  margin-left: 50px;
+}
+
+/* Centered uva pic */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-top: 30px;
+  margin-right: auto;
+  width: 90%;
+}
+
+.experience {
+  color:rgb(117, 125, 96);
+  margin-left: 33px;
+  font-size: 23px;
+  line-height: 50%;
+}
+
+.college { 
+  color:rgb(23, 39, 98);
+  margin-left: 60px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 10%;
+}
+
+.college1 {
+  margin-left:90px;
+  text-align: left;
+  font-size: 18px;
+  line-height: 10%;
+  color:rgb(145, 153, 123)
+}
+
+.collegep {
+  margin-left: 70px;
+  line-height: 10%;
+  color:rgb(23, 39, 98)
+}
+
+.embark {
+  color:rgb(23, 39, 98);
+  margin-left: 60px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 10%;
+}
+.embark1 {
+  margin-left:200px;
+  text-align: left;
+  font-size: 18px;
+  line-height: 10%;
+  color:rgb(145, 153, 123)
+}
+
+.embarkp {
+  margin-left: 70px;
+  line-height: 10%;
+  color:rgb(23, 39, 98)
+}
+
+.amigos{
+  color:rgb(23, 39, 98);
+  margin-left: 60px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 10%;
+}
+
+.amigos1 {
+  margin-left:200px;
+  text-align: left;
+  font-size: 18px;
+  line-height: 10%;
+  color:rgb(145, 153, 123);
+}
+
+.amigosp {
+  margin-left: 70px;
+  line-height: 10%;
+  color:rgb(23, 39, 98)
+}
+
+/* linkedin */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: px 2px;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.travel {
+  text-align: center;
+  color: rgb(23, 39, 98)
+}
