@@ -33,7 +33,7 @@ body, html {
     cursor: pointer;
     padding: 10px 16px;
     transition: 0.3s;
-    font-size: 18px;
+    font-size: 22px;
     font-family: Didot, serif;
     color: rgb(245, 243, 239);
     width: 25%;
@@ -134,12 +134,11 @@ h1 {
   color:rgb(23, 39, 98);
 }
 .spotify {
-  text-align: left;
-  margin-left: 30px;
+  margin-left: 125px;
   color:rgb(117, 125, 96)
 }
 .spot {
-  margin-left: 50px;
+  margin-left: 125px; 
 }
 
 /* Centered uva pic */
@@ -243,4 +242,9 @@ h1 {
 .travel {
   text-align: center;
   color: rgb(23, 39, 98)
+}
+
+.emojiheart {
+  font-size:20px;
+  color:rgb(23, 39, 98);
 }
