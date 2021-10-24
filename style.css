@@ -5,10 +5,38 @@ body {
     color: rgb(23, 39, 98);
     font-family: Didot, serif;
     text-align: center;
-    font-size: 50px;
+    font-size: 55px;
     margin-top: 15px;
     margin-bottom: 15px;
     cursor: pointer;
+}
+
+p { margin: }
+
+.hey {
+  position: absolute;
+  top: 52%;
+  left: 18%;
+  transform: translate(-50%, -50%);
+  font-size: 80px;
+  color:rgb(23, 39, 98);
+  font-weight: bold;
+}
+.hey1 {
+  position: absolute;
+  top: 68%;
+  left:31%;
+  transform: translate(-50%, -50%);
+  font-size: 60px;
+  font-weight: lighter;
+  color:rgb(245, 243, 239);
+}
+
+.firstvid {
+  margin-top: 10px;
+  margin-bottom: -40px;
+  width:100%;
+  height: auto;
 }
 
 /*Set height of body and the document to 100% to enable "full page tabs" */
@@ -33,7 +61,7 @@ body, html {
     cursor: pointer;
     padding: 10px 16px;
     transition: 0.3s;
-    font-size: 22px;
+    font-size: 23px;
     font-family: Didot, serif;
     color: rgb(245, 243, 239);
     width: 25%;
@@ -108,34 +136,87 @@ h1 {
   color:rgb(145, 153, 123);
   margin-left: 110px;
 }
-.info {
-  color:rgb(23, 39, 98);
-  margin-left: 40px
+.foodvid {
+  margin-top: 40px;
+  margin-bottom: -40px;
+  width:90%;
+  height: auto;
 }
+
 .food {
   color:rgb(23, 39, 98);
   text-align: center;
+  font-size: 40px;
+  margin-top: 70px;
+  margin-bottom:0px;
 }
-.recipes { 
+.food2 { 
   color:rgb(117, 125, 96);
-  font-size: 20px;
+  font-size: 25px;
   font-weight: bold;
+  margin-top:10px
 }
 .foodpics {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  
+  display: inline-block;
+  margin-left: 80px;
+  margin-right: 50px;
+  margin-top: 40px;
+  width:50%;
+  float:left;
+}
+.foodtext {
+  color:rgb(23, 39, 98);
+  margin-top:70px;
+  margin-left:100px;
+}
+
+.foodtitle1 {
+  color:rgb(145, 153, 123);
+  font-size:40px;
+  text-align: center;
+  margin-bottom: 5px;
+  margin-right:30px;
+  margin-top: 50px
+}
+.foodtitle2 {
+  color:rgb(145, 153, 123);
+  font-size:40px;
+  text-align: center;
+  margin-bottom: 5px;
+  margin-right:30px;
+  margin-top:500px
+}
+
+.foodwords {
+  color:rgb(23, 39, 98);
+  font-size: 20px;
+  margin-top: 20px;
+  text-align: left;
 }
 
 .i2 {
   text-align: center;
   color:rgb(23, 39, 98);
+  font-size: 30px;
+}
+.hobbies {
+  margin-left: 110px;
+  color:rgb(117, 125, 96);
+  font-size: 20px;
+  margin-bottom: 15px
+}
+.hobbies1 {
+  margin-left: 150px;
+  color:rgb(145, 153, 123);
+  font-size: 20px;
+  font-weight: lighter;
+  margin-top:5px;
+  margin-bottom: 5px
 }
 .spotify {
-  margin-left: 125px;
-  color:rgb(117, 125, 96)
+  margin-left: 110px;
+  color:rgb(117, 125, 96);
+  font-size: 20px;
 }
 .spot {
   margin-left: 125px; 
@@ -179,6 +260,22 @@ h1 {
   color:rgb(23, 39, 98)
 }
 
+.worktitle {
+  color:rgb(23, 39, 98);
+  font-size: 18px;
+}
+
+.info {
+  color:rgb(23, 39, 98);
+  margin-left: 40px
+}
+.info1 {
+  text-align: left;
+  margin-left: 60px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
 .embark {
   color:rgb(23, 39, 98);
   margin-left: 60px;
@@ -187,7 +284,7 @@ h1 {
   line-height: 10%;
 }
 .embark1 {
-  margin-left:200px;
+  margin-left:103px;
   text-align: left;
   font-size: 18px;
   line-height: 10%;
@@ -209,7 +306,7 @@ h1 {
 }
 
 .amigos1 {
-  margin-left:200px;
+  margin-left:190px;
   text-align: left;
   font-size: 18px;
   line-height: 10%;
@@ -244,7 +341,14 @@ h1 {
   color: rgb(23, 39, 98)
 }
 
+.emoji1 {
+  font-size:20px;
+  color:rgb(23, 39, 98);
+  margin-top: 500px
+}
+
 .emojiheart {
   font-size:20px;
   color:rgb(23, 39, 98);
+  margin-top: 50px;
 }
